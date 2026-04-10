@@ -7,6 +7,6 @@ public class PushNotification implements Notification{
 
     @Override
     public void sendMessage(String message) {
-        System.out.println("Enviando mensagem de push. Com no máximo " + globalConfig.getMaxTry() + " tentativas e no servidor " + globalConfig.getServer());
+        System.out.println("Enviando mensagem: '" + message + "'.Enviado por Push");
     }
 }

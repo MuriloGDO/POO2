@@ -16,6 +16,10 @@ public class GlobalConfig {
         return instance;
     }
 
+    public String getAplicationName() {
+        return this.aplicationName;
+    }
+
     public String getServer() {
         return this.server;
     }
