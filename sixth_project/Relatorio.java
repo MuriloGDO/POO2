@@ -1,5 +1,10 @@
 package sixth_project;
 
-public class Relatorio {
-    
+public interface Relatorio {
+    void accept(Visitor v);
+
+    String getTitulo();
+    String getGrafico();
+    String getFormato();
+    String getTexto();
 }
